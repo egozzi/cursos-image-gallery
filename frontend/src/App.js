@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div>
-      <Header title="Images Gallery Test" />
+      <Header title="Images Gallery" />
       <Search word={word} setWord={setWord} handleSubmit={handleSearchSubmit} />
       <Container className="mt-4">
         {images.length ? (
